@@ -70,3 +70,29 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+@media (max-width:769px){
+    .main{
+        flex-direction: column;
+    }
+    .mainText{
+        width: 80%;
+    }
+    img{
+        width: 20rem;
+    }
+    h2{
+        font-size: 2rem;
+        width: 100%;
+    }
+    p{
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+    footer{
+        text-align: center;
+        font-size: .7rem;
+        margin-bottom: 1.5em;
+    }
+    
+}
